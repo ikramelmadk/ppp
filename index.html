@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="imgs/Frontend Mentor _ ikramelmadk's profile_files/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  
+
+  <link rel="stylesheet" href="css/master.css">
+
+  <script src="app.js" defer></script>
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="container">
+      <form id="my_form">
+        <div class="form_container">
+          <div class="block">
+            <label for="day" id="dayL">Day</label>
+            <input type="number" id="day" placeholder="DD">
+            <small></small>
+          </div>
+
+          <div class="block">
+            <label for="month" id="monthL">Month</label>
+            <input type="number" id="month" placeholder="MM">
+            <small></small>
+          </div>
+
+          <div class="block">
+            <label for="year" id="yearL">Year</label>
+            <input type="number" id="year" placeholder="YYYY">
+            <small></small>
+          </div>
+        </div>
+        <div class="submit_block">
+          <hr>
+          <button type="submit" class="submit_btn"><img src="imgs/Frontend Mentor _ ikramelmadk's profile.html" alt="icon" ></button>
+        </div>
+      </form>
+
+      <div class="output">
+        <h1><span id="YY">--</span> Years</h1>
+        <h1><span id="MM">--</span> Months</h1>
+        <h1><span id="DD">--</span> Days</h1>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ikramelmadk">Elmadkouri Ikram</a>.
+  </div>
+
+
+</body>
+
+</html>
